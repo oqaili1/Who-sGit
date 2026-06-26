@@ -1,0 +1,11 @@
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
