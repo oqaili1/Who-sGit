@@ -6,7 +6,7 @@ let lastUsername = "";
 let isFetching = false;
 
 async function getRepos(username) {
-    let lnk = `https://api.github.com/users/${username}/repos`;
+    let lnk = `https://api.github.com/users/${username}/repos?per_page=100`;
     try {
         let data = await fetch(lnk);
         
